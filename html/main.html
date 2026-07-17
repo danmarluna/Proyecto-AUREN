@@ -1,75 +1,173 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style_main.css">
-    <title>Omega</title>
-</head>
-<body>
-<!--Barra inicio-->
-    <div>
-        <!--Menu hamburguesa-->
-        <nav>
-            <div>
-                <button
+<header>
+
+    <nav class="navbar">
+
+        <!-- Menú hamburguesa -->
+        <div class="navbar__menu">
+
+            <button
                 id="abrirMenu"
-                class="text-white hover:text-[#C08562] transition-colors duration-300 cursor-pointer"
+                class="btn-icono"
                 aria-label="Abrir menú">
-    <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-9 h-9">
-        <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
-    </svg>
-                </button>
-                <span>Menú</span>
-            </div>
-            <div>
-                <button
-                id="abrirMenu"
-                class="text-white hover:text-[#C08562] transition-colors duration-300 cursor-pointer"
-                aria-label="Abrir menú">
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-9 h-9">
-        <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
-        </svg>
-                </button>
-                <span>Buscar</span>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <button>
-                    <span>Llámenos</span>
-                </button>
-            </div>
-            <div>
-                <button>
-                    <img src="" alt="">
-                </button>
-            </div>
-            <div>
-                <button>
-                    <img src="" alt="">
-                </button>
-            </div>
-        </nav>
-    </div>
-</body>
-</html>
+
+                <!-- Icono hamburguesa -->
+
+            </button>
+
+        </div>
+
+        <!-- Logo -->
+        <div class="navbar__logo">
+
+            <img src="../img/logo.png" alt="Omega">
+
+        </div>
+
+        <!-- Acciones -->
+        <div class="navbar__acciones">
+
+            <button aria-label="Buscar">
+                🔍
+            </button>
+
+            <button aria-label="Favoritos">
+                ❤️
+            </button>
+
+            <button aria-label="Carrito">
+                🛒
+            </button>
+
+            <button aria-label="Mi cuenta">
+                👤
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<!-- ================= MENÚ LATERAL ================= -->
+
+<aside id="menuLateral" class="menu-lateral">
+
+    <button id="cerrarMenu" class="cerrar">
+        ✕
+    </button>
+
+    <ul class="menu">
+
+        <li>
+            <a href="#">Inicio</a>
+        </li>
+
+        <!-- Mujer -->
+        <li class="submenu">
+
+            <button class="submenu-btn">
+                Mujer
+                <span>+</span>
+            </button>
+
+            <ul class="submenu-lista">
+
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Blusas</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Faldas</a></li>
+                <li><a href="#">Zapatos</a></li>
+
+            </ul>
+
+        </li>
+
+        <!-- Hombre -->
+        <li class="submenu">
+
+            <button class="submenu-btn">
+
+                Hombre
+
+                <span>+</span>
+
+            </button>
+
+            <ul class="submenu-lista">
+
+                <li><a href="#">Camisas</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Sudaderas</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Tenis</a></li>
+
+            </ul>
+
+        </li>
+
+        <!-- Accesorios -->
+        <li class="submenu">
+
+            <button class="submenu-btn">
+
+                Accesorios
+
+                <span>+</span>
+
+            </button>
+
+            <ul class="submenu-lista">
+
+                <li><a href="#">Bolsos</a></li>
+                <li><a href="#">Cinturones</a></li>
+                <li><a href="#">Lentes</a></li>
+                <li><a href="#">Gorras</a></li>
+                <li><a href="#">Carteras</a></li>
+
+            </ul>
+
+        </li>
+
+        <!-- Joyería -->
+        <li class="submenu">
+
+            <button class="submenu-btn">
+
+                Joyería
+
+                <span>+</span>
+
+            </button>
+
+            <ul class="submenu-lista">
+
+                <li><a href="#">Collares</a></li>
+                <li><a href="#">Anillos</a></li>
+                <li><a href="#">Pulseras</a></li>
+                <li><a href="#">Aretes</a></li>
+                <li><a href="#">Relojes</a></li>
+
+            </ul>
+
+        </li>
+
+        <li>
+            <a href="#">Nuevas Colecciones</a>
+        </li>
+
+        <li>
+            <a href="#">Ofertas</a>
+        </li>
+
+        <li>
+            <a href="#">Nosotros</a>
+        </li>
+
+        <li>
+            <a href="#">Contacto</a>
+        </li>
+
+    </ul>
+
+</aside>
