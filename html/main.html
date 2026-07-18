@@ -1,173 +1,126 @@
-<header>
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta | Moda Premium</title>
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
     <nav class="navbar">
-
-        <!-- Menú hamburguesa -->
-        <div class="navbar__menu">
-
+        <!-- Menú -->
+        <div class="navbar__left">
             <button
+                class="navbar__button"
                 id="abrirMenu"
-                class="btn-icono"
                 aria-label="Abrir menú">
-
-                <!-- Icono hamburguesa -->
-
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor">
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.8"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+                </svg>
             </button>
-
+            <span>Menú</span>
         </div>
-
         <!-- Logo -->
-        <div class="navbar__logo">
-
-            <img src="../img/logo.png" alt="Omega">
-
-        </div>
-
+        <a
+            href="main.html"
+            class="navbar__logo">
+            DELTA
+        </a>
         <!-- Acciones -->
-        <div class="navbar__acciones">
-
-            <button aria-label="Buscar">
-                🔍
+        <div class="navbar__right">
+            <button
+                class="navbar__button"
+                aria-label="Buscar">
+                <!-- SVG Buscar -->
             </button>
-
-            <button aria-label="Favoritos">
-                ❤️
+            <button
+                class="navbar__button"
+                aria-label="Favoritos">
+                <!-- SVG Corazón -->
             </button>
-
-            <button aria-label="Carrito">
-                🛒
+            <button
+                class="navbar__button"
+                aria-label="Carrito">
+                <!-- SVG Bolsa -->
             </button>
-
-            <button aria-label="Mi cuenta">
-                👤
+            <button
+                class="navbar__button"
+                aria-label="Mi cuenta">
+                <!-- SVG Usuario -->
             </button>
-
         </div>
-
     </nav>
+    </header>
 
-</header>
-
-<!-- ================= MENÚ LATERAL ================= -->
-
-<aside id="menuLateral" class="menu-lateral">
-
-    <button id="cerrarMenu" class="cerrar">
-        ✕
-    </button>
-
-    <ul class="menu">
-
+    <!--==================== MENÚ ====================-->
+    <aside
+    class="menu"
+    id="menu">
+    <div class="menu__header">
+        <h2>DELTA</h2>
+        <button
+            id="cerrarMenu">
+            ✕
+        </button>
+    </div>
+    <ul class="menu__lista">
         <li>
-            <a href="#">Inicio</a>
+            <a href="main.html">
+                Inicio
+            </a>
         </li>
-
-        <!-- Mujer -->
         <li class="submenu">
-
-            <button class="submenu-btn">
+            <button>
                 Mujer
-                <span>+</span>
             </button>
-
-            <ul class="submenu-lista">
-
+            <ul>
                 <li><a href="#">Vestidos</a></li>
                 <li><a href="#">Blusas</a></li>
-                <li><a href="#">Playeras</a></li>
                 <li><a href="#">Pantalones</a></li>
-                <li><a href="#">Faldas</a></li>
-                <li><a href="#">Zapatos</a></li>
-
             </ul>
-
         </li>
-
-        <!-- Hombre -->
         <li class="submenu">
-
-            <button class="submenu-btn">
-
+            <button>
                 Hombre
-
-                <span>+</span>
-
             </button>
-
-            <ul class="submenu-lista">
-
+            <ul>
                 <li><a href="#">Camisas</a></li>
                 <li><a href="#">Playeras</a></li>
-                <li><a href="#">Sudaderas</a></li>
-                <li><a href="#">Pantalones</a></li>
                 <li><a href="#">Tenis</a></li>
-
             </ul>
-
         </li>
-
-        <!-- Accesorios -->
-        <li class="submenu">
-
-            <button class="submenu-btn">
-
-                Accesorios
-
-                <span>+</span>
-
-            </button>
-
-            <ul class="submenu-lista">
-
-                <li><a href="#">Bolsos</a></li>
-                <li><a href="#">Cinturones</a></li>
-                <li><a href="#">Lentes</a></li>
-                <li><a href="#">Gorras</a></li>
-                <li><a href="#">Carteras</a></li>
-
-            </ul>
-
-        </li>
-
-        <!-- Joyería -->
-        <li class="submenu">
-
-            <button class="submenu-btn">
-
-                Joyería
-
-                <span>+</span>
-
-            </button>
-
-            <ul class="submenu-lista">
-
-                <li><a href="#">Collares</a></li>
-                <li><a href="#">Anillos</a></li>
-                <li><a href="#">Pulseras</a></li>
-                <li><a href="#">Aretes</a></li>
-                <li><a href="#">Relojes</a></li>
-
-            </ul>
-
-        </li>
-
         <li>
-            <a href="#">Nuevas Colecciones</a>
+            <a href="#">Joyería</a>
         </li>
-
         <li>
-            <a href="#">Ofertas</a>
+            <a href="#">Accesorios</a>
         </li>
-
-        <li>
-            <a href="#">Nosotros</a>
-        </li>
-
         <li>
             <a href="#">Contacto</a>
         </li>
-
     </ul>
-
 </aside>
+
+    <!--==================== MAIN ====================-->
+    <main>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer>
+    </footer>
+    <script src="js/app.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
