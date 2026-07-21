@@ -17,6 +17,10 @@
     align-items:center;
 }
 
+.navbar:hover{
+    background-color: #fff;
+}
+
 .navbar__left{
     display:flex;
     align-items:center;
