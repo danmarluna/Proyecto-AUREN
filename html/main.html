@@ -20,6 +20,12 @@
                 <img src="../assets/iconos/menu-hamburguesa.png" width="20px" height="20px">
             </button>
             <span>Menú</span>
+            <button
+                class="navbar__button"
+                aria-label="Buscar">
+                <img src="../assets/iconos/buscar.png" width="20px" height="20px">
+            </button>
+            <span>Buscar</span>
         </div>
         <!-- Logo -->
         <a
@@ -30,27 +36,154 @@
         <div class="navbar__right">
             <button
                 class="navbar__button"
-                aria-label="Buscar">
-                <img src="../assets/iconos/buscar.png" width="20px" height="20px">
-            </button>
-            <button
-                class="navbar__button"
                 aria-label="Favoritos">
+                <img src="../assets/iconos/favorito.png" width="20px" height="20px">
             </button>
             <button
                 class="navbar__button"
                 aria-label="Carrito">
+                <img src="../assets/iconos/carrito-de-compras.png" width="20px" height="20px">
             </button>
             <button
                 class="navbar__button"
                 aria-label="Mi cuenta">
+                <img src="../assets/iconos/avatar.png" width="20px" height="20px">
             </button>
         </div>
     </nav>
     </header>
 
     <!--==================== MENÚ ====================-->
-
+<aside class="menu" id="menu">
+    <!-- ================= Overlay ================= -->
+    <div class="menu__contenedor">
+        <!-- ========================================= -->
+        <!-- MENÚ PRINCIPAL -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--principal activo"
+            id="menuPrincipal">
+            <div class="menu__header">
+                <h2>AUREN</h2>
+                <button
+                    id="cerrarMenu"
+                    class="menu__cerrar">
+                    ✕
+                </button>
+            </div>
+            <nav>
+                <ul class="menu__lista">
+                    <li>
+                        <a href="main.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuMujer">
+                            Mujer
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuHombre">
+                            Hombre
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                            class="menu__categoria"
+                            id="abrirJoyeria">
+                            Joyería
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuAccesorios">
+                            Accesorios
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- ========================================= -->
+        <!-- MUJER -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuMujer">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Mujer</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Blusas</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Bolsos</a></li>
+                <li><a href="#">Zapatos</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- HOMBRE -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuHombre">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Hombre</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Camisas</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Bolsos</a></li>
+                <li><a href="#">Carteas</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- JOYERÍA -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuJoyeria">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Joyería</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Anillos</a></li>
+                <li><a href="#">Collares</a></li>
+                <li><a href="#">Pulseras</a></li>
+                <li><a href="#">Aretes</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- ACCESORIOS -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuAccesorios">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Accesorios</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Bolsas</a></li>
+                <li><a href="#">Lentes</a></li>
+                <li><a href="#">Cinturones</a></li>
+                <li><a href="#">Relojes</a></li>
+            </ul>
+        </section>
+    </div>
+</aside>
     <!--==================== MAIN ====================-->
     <main>
         <video autoplay loop muted playsinline width="100%">
@@ -63,7 +196,7 @@
     <footer>
     </footer>
     <script src="js/app.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="../script/menu.js"></script>
 </body>
 
 </html>
