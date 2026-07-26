@@ -1,0 +1,40 @@
+.explorar__categorias{
+    font-family: var(--texto-principal);
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.categorias{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    max-width:1400px;
+    margin:auto;
+    padding:80px 40px;
+}
+
+.categoria{
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.categoria img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    transition:.6s ease;
+}
+
+.categoria h3{
+    text-align:center;
+    margin-top:20px;
+    font-family:var(--texto-principal);
+    font-size:1.1rem;
+    font-weight:400;
+}
+
+.categoria:hover img{
+    transform:scale(1.05);
+}

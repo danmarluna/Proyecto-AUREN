@@ -7,7 +7,7 @@
     left: -420px;
     width: 420px;
     height: 100vh;
-    background: var(--color-white);
+    background: var(--color-blanco);
     box-shadow: 15px 0 40px rgba(0,0,0,.15);
     overflow: hidden;
     transition: left .7s ease;
@@ -31,7 +31,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--color-white);
+    background: var(--color-blanco);
     padding: 35px;
     transition: transform .6s ease;
 }
@@ -79,14 +79,14 @@
 }
 
 .menu__lista a{
-    color:var(--color-black);
+    color:var(--color-negro);
     text-decoration:none;
     font-size:1rem;
     transition:.3s;
 }
 
 .menu__lista a:hover{
-    color:var(--color-gold);
+    color:var(--color-dorado);
 }
 
 .menu__categoria{
@@ -102,7 +102,7 @@
 }
 
 .menu__categoria:hover{
-    color:var(--color-gold);
+    color:var(--color-dorado);
 }
 
 .menu__categoria span{
@@ -128,7 +128,7 @@
 .overlay{
     position:fixed;
     inset:0;
-    background:rgba(0,0,0,.45);
+    background: #5e5e5e;
     opacity:0;
     visibility:hidden;
     transition:.6s ease;
@@ -136,6 +136,6 @@
 }
 
 .overlay.activo{
-    opacity:1;
+    opacity:10;
     visibility:visible;
 }
