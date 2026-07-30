@@ -1,9 +1,21 @@
+video + h3{
+    padding-top: 35px;
+}
+
 .explorar__categorias{
     font-family: var(--texto-principal);
     font-weight: normal;
     text-align: center;
     font-size: 30px;
+}
+
+.explorar__seccion{
+    font-family: var(--texto-principal);
+    font-size: 14px;
+    text-align: center;
+    z-index: 30px;
     padding-top: 35px;
+    color: var(--color-gris);
 }
 
 .categorias{
