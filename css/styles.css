@@ -53,11 +53,12 @@ video + h3{
 }
 
 .producto-card {
-    width: 300px;
+    width: 100%;
+    transition: transform .35s ease;
 }
 
 .producto-card__link {
-    display: block;
+    display: inline-block;
     color: inherit;
     text-decoration: none;
 }
@@ -122,10 +123,6 @@ video + h3{
 
 .producto-card:hover .producto-card__nombre {
     color: var(--color-dorado);
-}
-
-.producto-card {
-    transition: transform .35s ease;
 }
 
 .producto-card:hover {
