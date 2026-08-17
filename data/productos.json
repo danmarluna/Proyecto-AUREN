@@ -1,0 +1,97 @@
+[
+    {
+        "id": "001",
+        "nombre": "Anillo Aurora",
+        "categoria": "Joyería",
+        "precio": 1299,
+        "imagen": "../assets/img/productos/anillo-auren.jpg",
+        "descripcion": "Anillo de diseño elegante para esa persona tan especial."
+    },
+    {
+        "id": "002",
+        "nombre": "Vestido Fiesta de Noche",
+        "categoria": "Vestidos",
+        "precio": 3769,
+        "imagen": "../assets/img/productos/vestido-de-noche.jpg",
+        "descripcion": "Vestido de noche para usar en tu cena elegante o en esa cita soñada."
+    },
+    {
+        "id": "003",
+        "nombre": "Collar Marina",
+        "categoria": "Joyería",
+        "precio": 2780,
+        "imagen": "../assets/img/productos/collar-marina.jpg",
+        "descripcion": "Un collar que demuestra el lujo tan sutilmente que es perfecto."
+    },
+    {
+        "id": "004",
+        "nombre": "Bolso Mujer Perla",
+        "categoria": "Bolsos",
+        "precio": 4580,
+        "imagen": "../assets/img/productos/bolso-noche.jpg",
+        "descripcion": "El bolso perfecto para esas mujeres perfectas."
+    },
+    {
+        "id": "005",
+        "nombre": "Pulsera Aqua",
+        "categoria": "Joyería",
+        "precio": 3890,
+        "imagen": "../assets/img/productos/pulsera-aqua.jpg",
+        "descripcion": "Que la muñeca luzca la muñeca de la mejor manera."
+    },
+    {
+        "id": "006",
+        "nombre": "Blusa Seda Perla",
+        "categoria": "Blusas",
+        "precio": 1890,
+        "imagen": "../assets/img/productos/blusa-seda-perla.jpg",
+        "descripcion": "En cualquier salida se robaran miradas con la elegancia."
+    },
+    {
+        "id": "007",
+        "nombre": "Playera Hombre Fanci",
+        "categoria": "Playeras",
+        "precio": 1570,
+        "imagen": "../assets/img/productos/playera-hombre-fanci.jpg",
+        "descripcion": "Una playera que debes tener en tu armario para cualquier ocasion."
+    },
+    {
+        "id": "008",
+        "nombre": "Chamarra Casual",
+        "categoria": "Chamarra",
+        "precio": 2680,
+        "imagen": "../assets/img/productos/chamarra-casual.jpg",
+        "descripcion": "Haga frio o solo sea una cena es necesario la chamarra."
+    },
+    {
+        "id": "009",
+        "nombre": "Vestido Pinky",
+        "categoria": "Vestidos",
+        "precio": 5689,
+        "imagen": "../assets/img/productos/vestido-pinky.jpg",
+        "descripcion": "Un vestido que demuestra la elegancia y lujo como se debe."
+    },
+    {
+        "id": "010",
+        "nombre": "Reloj King",
+        "categoria": "Joyería",
+        "precio": 7896,
+        "imagen": "../assets/img/productos/reloj-king.jpg",
+        "descripcion": "Un reloj para portar con lujo sin necesidad de que brille."
+    },
+    {
+        "id": "011",
+        "nombre": "Playera Casual",
+        "categoria": "Playeras",
+        "precio": 990,
+        "imagen": "../assets/img/productos/playera-casual.jpg",
+        "descripcion": "Sea para diario o salida la camisa es excelente."
+    },{
+        "id": "012",
+        "nombre": "Pantalon Wite",
+        "categoria": "Pantalon Mujer",
+        "precio": 1380,
+        "imagen": "../assets/img/productos/pantalon-wite.jpg",
+        "descripcion": "Especialmente para mostrar ese porte como se debe."
+    }
+]
