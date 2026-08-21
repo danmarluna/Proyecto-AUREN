@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Producto | AUREN</title>
+    <link rel="stylesheet" href="../css/global.css">
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+    <nav class="navbar">
+        <!-- Menú -->
+        <div class="navbar__left">
+            <button
+                class="navbar__button"
+                id="abrirMenu">
+                <img src="../assets/iconos/menu-hamburguesa.png" width="20px" height="20px">
+            </button>
+            <span>Menú</span>
+            <button
+                class="navbar__button"
+                aria-label="Buscar">
+                <img src="../assets/iconos/buscar.png" width="20px" height="20px">
+            </button>
+            <span>Buscar</span>
+        </div>
+        <!-- Logo -->
+        <a
+            class="navbar__logo">
+            AUREN
+        </a>
+        <!-- Acciones -->
+        <div class="navbar__right">
+            <button
+                class="navbar__button"
+                aria-label="Favoritos">
+                <a href="favoritos.html">
+                <img src="../assets/iconos/favorito.png" width="20px" height="20px">
+                </a>
+            </button>
+            <button
+                class="navbar__button"
+                aria-label="Carrito">
+                <a href="carrito.html">
+                <img src="../assets/iconos/carrito-de-compras.png" width="20px" height="20px">
+                </a>
+            </button>
+            <button
+                class="navbar__button"
+                aria-label="Mi cuenta">
+                <a href="perfil.html">
+                <img src="../assets/iconos/avatar.png" width="20px" height="20px">
+                </a>
+            </button>
+        </div>
+    </nav>
+    </header>
+
+    <!--==================== MENÚ ====================-->
+<aside class="menu" id="menu">
+    <!-- ================= Overlay ================= -->
+    <div class="menu__contenedor">
+        <!-- ========================================= -->
+        <!-- MENÚ PRINCIPAL -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--principal activo"
+            id="menuPrincipal">
+            <div class="menu__header">
+                <h2>AUREN</h2>
+                <button
+                    id="cerrarMenu"
+                    class="menu__cerrar">
+                    ✕
+                </button>
+            </div>
+            <nav>
+                <ul class="menu__lista">
+                    <li>
+                        <a href="main.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuMujer">
+                            Mujer
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuHombre">
+                            Hombre
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button
+                            class="menu__categoria"
+                            id="abrirJoyeria">
+                            Joyería
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="menu__categoria" data-panel="menuAccesorios">
+                            Accesorios
+                            <span>></span>
+                        </button>
+                    </li>
+                    <li>
+                        <a href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- ========================================= -->
+        <!-- MUJER -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuMujer">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Mujer</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Vestidos</a></li>
+                <li><a href="#">Blusas</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Bolsos</a></li>
+                <li><a href="#">Zapatos</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- HOMBRE -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuHombre">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Hombre</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Camisas</a></li>
+                <li><a href="#">Playeras</a></li>
+                <li><a href="#">Pantalones</a></li>
+                <li><a href="#">Bolsos</a></li>
+                <li><a href="#">Carteas</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- JOYERÍA -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuJoyeria">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Joyería</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Anillos</a></li>
+                <li><a href="#">Collares</a></li>
+                <li><a href="#">Pulseras</a></li>
+                <li><a href="#">Aretes</a></li>
+            </ul>
+        </section>
+        <!-- ========================================= -->
+        <!-- ACCESORIOS -->
+        <!-- ========================================= -->
+        <section
+            class="menu__panel menu__panel--secundario"
+            id="menuAccesorios">
+            <button class="menu__volver">
+                ← Regresar
+            </button>
+            <h2>Accesorios</h2>
+            <ul class="menu__lista">
+                <li><a href="#">Bolsas</a></li>
+                <li><a href="#">Lentes</a></li>
+                <li><a href="#">Cinturones</a></li>
+                <li><a href="#">Relojes</a></li>
+            </ul>
+        </section>
+    </div>
+</aside>
+    <!-- =========================
+        PRODUCTO
+    ========================== -->
+    <main class="producto">
+        <div class="producto__contenedor">
+            <!-- IMAGEN -->
+            <section class="producto__galeria">
+                <div class="producto__imagen">
+                    <img
+                        id="productoImagen"
+                        src=""
+                        alt=""
+                    >
+                </div>
+            </section>
+            <!-- INFORMACIÓN -->
+            <section class="producto__informacion">
+                <p
+                    class="producto__categoria"
+                    id="productoCategoria">
+                </p>
+                <h1
+                    class="producto__nombre"
+                    id="productoNombre">
+                </h1>
+                <p
+                    class="producto__precio"
+                    id="productoPrecio">
+                </p>
+                <div class="producto__separador"></div>
+                <p
+                    class="producto__descripcion"
+                    id="productoDescripcion">
+                </p>
+                <!-- CANTIDAD -->
+                <div class="producto__cantidad">
+                    <span>Cantidad</span>
+                    <div class="cantidad__control">
+                        <button
+                            id="disminuirCantidad"
+                            type="button">
+                            −
+                        </button>
+                        <span id="cantidadProducto">
+                            1
+                        </span>
+                        <button
+                            id="aumentarCantidad"
+                            type="button">
+                            +
+                        </button>
+                    </div>
+                </div>
+                <!-- BOTÓN CARRITO -->
+                <button
+                    class="producto__carrito"
+                    id="agregarCarrito"
+                    type="button">
+                    AGREGAR AL CARRITO
+                </button>
+                <!-- FAVORITO -->
+                <button
+                    class="producto__favorito"
+                    id="agregarFavorito"
+                    type="button">
+                    ♡
+                    <span>Agregar a favoritos</span>
+                </button>
+            </section>
+        </div>
+    </main>
+    <!-- =========================
+        FOOTER
+    ========================== -->
+    <footer>
+        <div class="footer">
+            <div class="footer__columna">
+            <h4>Ayuda</h4>
+                <p>
+                    Un asesor estara disponible de lunes a viernes de 9 am-6 pm llamando al
+                    <a href="https://wa.me/+523324447372" target="_blank">+523324447372.</a> Tambien puede contactarse a travez de Whatsapp o mandando un correo a la dirección
+                    <a href="mailto:danmarluna65@gmail.com" target="_blank">danmarluna65@gmail.com</a>
+                </p>
+                <p>
+                    Preguntas Frecuentes
+                </p>
+                <p>
+                    Condiciones y privacidad
+                </p>
+            </div>
+            <div class="footer__columna">
+            <h4>Destacados</h4>
+                <p>
+                    <a href="catalago.html">
+                    Oro puro en joyeria unica
+                    </a>
+                </p>
+                <p>
+                    <a href="catalago.html">
+                    Plata para destacar
+                    </a>
+                </p>
+                <p>
+                    <a href="catalago.html">
+                    Diseñador para los hombres
+                    </a>
+                </p>
+                <p>
+                    <a href="catalago.html">
+                    Mejor diseñador para las damas
+                    </a>
+                </p>
+                <p>
+                    <a href="catalago.html">
+                    Nunca llegues tarde con nuestros relojes
+                    </a>
+                </p>
+            </div>
+            <div class="footer__columna">
+            <h4>Siguenos</h4>
+                <p>
+                    <a href="#">
+                    Instagram
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                    Facebook
+                    </a>
+                </p>
+                <p>
+                    <a href="#">
+                    Tiktok
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../script/menu.js"></script>
+    <script src="../script/producto.js"></script>
+</body>
+</html>
